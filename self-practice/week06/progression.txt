@@ -1,0 +1,8 @@
+hw.js
+deleteQuote(id)
+Finds the index of a quote in the quotes array whose id equals the given id using findIndex.
+If found (index !== -1), removes it with splice(index, 1) and returns true.
+
+updateQuote(id, updatedQuote)
+Finds the first quote object in quotes with matching id using find.
+if found, updates content and/or author only when those fields in updatedQuote are not undefined, then returns true.
