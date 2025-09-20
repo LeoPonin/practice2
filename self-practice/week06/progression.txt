@@ -6,3 +6,9 @@ If found (index !== -1), removes it with splice(index, 1) and returns true.
 updateQuote(id, updatedQuote)
 Finds the first quote object in quotes with matching id using find.
 if found, updates content and/or author only when those fields in updatedQuote are not undefined, then returns true.
+
+---------------------------------------------------------
+test1.js
+greet is a higher-order function: it accepts a value name and a function formatter.
+It calls formatter(name).
+shout is an arrow function with one parameter "text" so it would be somthing like function shout(text){} if it's the declared one.
