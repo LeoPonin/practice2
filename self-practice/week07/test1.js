@@ -1,16 +1,16 @@
 
-const title = document.getElementById("title");
-const message = document.getElementById("message");
-const changeBtn = document.getElementById("changeBtn");
-const itemsList = document.getElementById("items");
+const title = document.getElementById("title")
+const message = document.getElementById("message")
+const changeBtn = document.getElementById("changeBtn")
+const itemsList = document.getElementById("items")
 const addItemBtn = document.getElementById("addItemBtn");
 
 changeBtn.addEventListener("click", () => {
-  message.textContent = "hah! im new";
-  title.style.color = "pink";
-  document.body.style.backgroundColor = "#fffbe6";
-  console.log("message changed");
-});
+  message.textContent = "hah! im new"
+  title.style.color = "pink"
+  document.body.style.backgroundColor = "#fffbe6"
+  console.log("message changed")
+})
 
 
 

@@ -1,3 +1,14 @@
 Since this is knoda new topic, I decide to spend quite lot of time to under stand what the hell is going on with the hierarchy and stil has no idea(kinda) so i use id instead for my sake.
 
-For the button section is nothing new at all, just create an arrow function in js as "click" and chage what inside id = message, title and chage body bacground color.
+For the button section is nothing new at all, just create an arrow function in js as a built in event "click" , and chage what inside id = message, title and chage body bacground color.
+
+For dynamic add section I use AI to generate the code(click add and there will be new item) so I'm gonna explain what I understand from reading the code: we set the current item count as a variable and create arrow function as "click" like the same, then in side the function 
+
+  itemCount++; --plus the item count
+  const newItem = document.createElement("li"); --create new element for item
+  newItem.textContent = `Item ${itemCount}`; -- add text for new li item
+    ⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆⬆
+    FLOATING ELEMENT, HAS NOWHERE TO GO
+
+  itemsList.appendChild(newItem); --append it in the id of itemList(items)
+  console.log(`Item ${itemCount} added to the list.`); -- just terminal message
