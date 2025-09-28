@@ -1,0 +1,3 @@
+Since this is knoda new topic, I decide to spend quite lot of time to under stand what the hell is going on with the hierarchy and stil has no idea(kinda) so i use id instead for my sake.
+
+For the button section is nothing new at all, just create an arrow function in js as "click" and chage what inside id = message, title and chage body bacground color.
