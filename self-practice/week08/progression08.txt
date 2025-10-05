@@ -1,0 +1,6 @@
+lesson2_dom-Student
+
+start from import everything iI see in quote.js then create empty array and variable for id quote-list.
+in renderQuotes firstly use getAllQuotes() to the empty array that created then clear quoteList element by set innerHTML to '' (somewhat feel illegal) then looping by forEach-->create floating p element then add content in it and append that element to quoteList.
+
+after have ai rate the code it say that clearing by purely quoteList.innerHTML = '' is not reccommend and better not import the unused function
