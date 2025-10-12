@@ -1,3 +1,13 @@
 
 This week is mainly apply logic with DOM and learn new event and attributes and about hierarchy.
 In the first draft of practice1 I deliberately avoid hierarchy,so in the first draft I use appenchild methos instead of go in the descentdant and change textcontent.
+
+(something like this in the function)
+
+const p =document.createElement('p')
+p.textContent= "missing some value, please try again"
+form.appendChild(p).style.color="red"
+
+which will stacking that message as button is clicked but go in the 'p' and change content is more least troublesome.
+
+So what I got? .querySelector is OP so better use it toget the chlid
