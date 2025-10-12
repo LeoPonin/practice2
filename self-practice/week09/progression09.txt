@@ -1,0 +1,3 @@
+
+This week is mainly apply logic with DOM and learn new event and attributes and about hierarchy.
+In the first draft of practice1 I deliberately avoid hierarchy,so in the first draft I use appenchild methos instead of go in the descentdant and change textcontent.
