@@ -1,0 +1,18 @@
+local-storage
+I don't understand the way to apply it to the code at all (at least I get the concept(maybe)) so imma keep it simple in the code.
+In save session, get the input value as a variable then use if else to check if it's empty or not then label the value that we want to use(input value from earlier)
+
+localStorage.setItem("savedName", name);
+                        ⬆⬆⬆⬆        ⬆⬆
+                        label      value
+
+Load session, get local storage value as a variable(agian) if it exists then set textcontent as what it is.
+
+---------------------------------------------------------------------
+
+cookies
+
+For setting cookies itself seem to be nothing at all. Main attributes that needed to be focus are name, value, days 
+name = label, value, days = expire date. What has been added is path=/ which make these cookie available anywhere in website.
+
+
